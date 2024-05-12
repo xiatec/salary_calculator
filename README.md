@@ -87,8 +87,4 @@ FInally, I decided to use Random Forest Regressor
 ## Front End API
 <img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170317321.png" alt="image-20240512170317321" style="zoom:25%;" />
 
-<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170438535.png" alt="image-20240512170438535" style="zoom:50%;" />!8e)
-
-
-## Productionize the model
-Coming soon...
+<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170438535.png" alt="image-20240512170438535" style="zoom:50%;" />!8e)...
