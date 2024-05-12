@@ -85,8 +85,9 @@ I tried different models and evaluated them using Mean Absolute Error. I chose M
 FInally, I decided to use Random Forest Regressor
 
 ## Front End API
-![Front-end-2](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/cddc56ae-579f-4305-ad7c-d11454d387b0)
-![Front-end-1](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/ce5df099-7c75-4176-83b5-6f9ba2baf78e)
+<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170317321.png" alt="image-20240512170317321" style="zoom:25%;" />
+
+<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170438535.png" alt="image-20240512170438535" style="zoom:50%;" />!8e)
 
 
 ## Productionize the model
