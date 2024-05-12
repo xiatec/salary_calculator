@@ -85,6 +85,6 @@ I tried different models and evaluated them using Mean Absolute Error. I chose M
 FInally, I decided to use Random Forest Regressor
 
 ## Front End API
-<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170317321.png" alt="image-20240512170317321" style="zoom:25%;" />
+<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170654458.png" alt="image-20240512170654458" style="zoom:50%;" />
 
-<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170438535.png" alt="image-20240512170438535" style="zoom:50%;" />!8e)...
+<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170716876.png" alt="image-20240512170716876" style="zoom:50%;" />
