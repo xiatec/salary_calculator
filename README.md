@@ -62,29 +62,21 @@ After scraping the data, I needed to clean it up so that it was usable for our m
     6. Column for simplified job title and Seniority
 
 ## EDA
-I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights
+I looked at the distributions of the data and the value counts for the various categorical variables. you can find more details in the assets file
 
-* Count of Job vs State 
-# ![Count of job vs state](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/f3c0c267-c3b0-41e6-97da-325c7b955d3b)
-* Job Salary vs Position vs State vs Sector
-# ![Job position vs Salary](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/2e86c81f-ccd4-4c8e-a3e6-7b612e464095), ![Job State vs Salary](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/49aa00d3-8897-426d-81c3-3458d51141be), ![Sector vs Salary](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/52c25747-73f8-4d22-8867-9694c50d36dc)
-* Job Sector Wordcloud
-# ![Sector Wordcloud](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/ab41d42e-d98f-4fa5-98c6-a0676f7cc938)
-* Job Salary Correlation , Job Salary Distribution
-# ![Salary correlation](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/577b6bf0-be61-4fa9-8de3-32d8bb552308) , ![Salary Distribution](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/25dc4120-c8df-47c9-88af-229cc3df6346)
-
-* California has maximum number of jobs followed by massachusetts and  New York
-* Media Sector is paying the maximum compensation
-* Job Salary is highly positively correlated to Company Rating and Number of competitors it has
 
 ## Model Training
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 
 I tried different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
 
-FInally, I decided to use Random Forest Regressor
+Finally, I decided to use Random Forest Regressor
 
 ## Front End API
-<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170654458.png" alt="image-20240512170654458" style="zoom:50%;" />
+I also developed a front end api use flask
+## how to run
+```
+python app.py
+```
+then click on the url, you can see the homepage, then enter /predict after the url, you can enter several infos, then the model can give you the predicted salary based on the training results
 
-<img src="/Users/xiatian/Library/Application Support/typora-user-images/image-20240512170716876.png" alt="image-20240512170716876" style="zoom:50%;" />
