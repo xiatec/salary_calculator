@@ -24,7 +24,6 @@
 ## Data Logging and Custom Exception handling
 * Every step is logged and a separate folder is created for logging. Such process can help identify problems in the code
 * Every error is logged in the logger file with a Custom Error Handling exception message
-![logs_screenshot](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/d0dc9c5f-d442-42a2-9261-9bb2c618f1f0)
 
 
 ## Web Scraping
@@ -82,8 +81,6 @@ I looked at the distributions of the data and the value counts for the various c
 First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 
 I tried different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
-
-![Model Score](https://github.com/SrijanDeo-DA-DS/DataScience_Job_Salary_Predictor/assets/88278620/b54c58e2-48e6-4be4-89f7-fa76b5382f30)
 
 FInally, I decided to use Random Forest Regressor
 
